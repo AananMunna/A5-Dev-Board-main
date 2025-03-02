@@ -91,6 +91,7 @@ function getRandomColor() {
 }
 
 
+// blog page functionality
 document.getElementById('blogLink').addEventListener('click', function(){
     window.location.href = './blog.html'
 })
