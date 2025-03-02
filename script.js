@@ -4,7 +4,6 @@ let checkedValue = 23;
 const buttons = document.querySelectorAll('.completed');
 for(let button of buttons){
     button.addEventListener('click', function(event){
-        // alert
         alert('Board updated Successfully')
 
         // disable button
